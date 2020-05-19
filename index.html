@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Scotto Baggins</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="parallax1">
+      <div class="heading">
+        <h1>There and Back Again</h1>
+        <h2>An I.T Tale by Scotto Baggins</h2>
+
+
+    </div>
+
+  </div>
+
+
+
+
+    <section>
+      <div id="audio">
+        <audio controls autoplay loop id="Concerning">
+          <source src="media/Hobbits.mp3" type="audio/mp3">
+          Your Browser does not support audio files.
+        </audio>
+        </div>
+
+      <hr />
+
+      <h3>Concerning Hobbits</h3>
+      <p>
+        Hobbits are an unobtrusive but very ancient people, more numerous formaly than they are today; for they love aircraft models, drones and well kept server rooms: A well cooled and well cabled server room was their favourite haunt. Even in ancient days they were, as a rule, shy of 'the Big Folk', as they call us, and now they avoid us with dismay and are becoming hard to find.
+        </p>
+<hr/>
+
+<p>
+  Tongues began to wag in Hobbiton and Bywater; and rumour of the coming event travelled all over Rybrook. The history and character of Mr.Scotto Baggins became once again the chief topic of conversation; and the older folk suddenly found their reminiscences in welcome demand.
+  </p>
+<hr/>
+
+    </section>
+<div class="Parallax2">
+
+
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 16</div>
+        <img src="media\Gallery\scott1.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 16</div>
+        <img src="media\Gallery\scott12.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 16</div>
+        <img src="media\Gallery\scott2.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 16</div>
+        <img src="media\Gallery\scott3.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 16</div>
+        <img src="media\Gallery\scott4.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 16</div>
+        <img src="media\Gallery\scott5.png" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 16</div>
+        <img src="media\Gallery\scott6.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">8 / 16</div>
+        <img src="media\Gallery\scott7.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">9 / 16</div>
+        <img src="media\Gallery\scott8.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">10 / 16</div>
+        <img src="media\Gallery\scott9.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">11 / 16</div>
+        <img src="media\Gallery\scott10.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">12 / 16</div>
+        <img src="media\Gallery\scott11.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">13 / 16</div>
+        <img src="media\Gallery\scott13.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">14 / 16</div>
+        <img src="media\Gallery\scott14.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">15 / 16</div>
+        <img src="media\Gallery\scott15.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">16 / 16</div>
+        <img src="media\Gallery\scott16.jpg" style="width:100%">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <span class="dot" onclick="currentSlide(7)"></span>
+      <span class="dot" onclick="currentSlide(8)"></span>
+      <span class="dot" onclick="currentSlide(9)"></span>
+      <span class="dot" onclick="currentSlide(10)"></span>
+      <span class="dot" onclick="currentSlide(11)"></span>
+      <span class="dot" onclick="currentSlide(12)"></span>
+      <span class="dot" onclick="currentSlide(13)"></span>
+      <span class="dot" onclick="currentSlide(14)"></span>
+      <span class="dot" onclick="currentSlide(15)"></span>
+      <span class="dot" onclick="currentSlide(16)"></span>
+      <script type="text/javascript">
+        var slideIndex = 1;
+showSlides(slideIndex);
+
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+var slideIndex = 0;
+showSlides(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16);
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+
+
+      </script>
+    </div>
+</div>
+<footer>
+
+  </footer>
+
+  </body>
+</html>
